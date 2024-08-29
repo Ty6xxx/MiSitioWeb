@@ -1,0 +1,79 @@
+/* reset.css */
+
+/* Elimina márgenes y rellenos por defecto */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establece un tamaño de fuente base */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Normaliza estilos de encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Normaliza el estilo de los enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Elimina el estilo de listas por defecto */
+ul, ol {
+  list-style: none;
+}
+
+/* Normaliza tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Asegura que los elementos de formulario se comporten de manera uniforme */
+input, textarea, select, button {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Asegura que las imágenes sean responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Ajusta el comportamiento de los bloques */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+}
+
+/* Normaliza el estilo de las tablas */
+caption {
+  text-align: left;
+}
+
+th {
+  text-align: left;
+}
+
+/* Ajusta los elementos de formulario */
+button {
+  cursor: pointer;
+}
